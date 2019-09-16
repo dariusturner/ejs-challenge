@@ -48,8 +48,6 @@ app.get("/posts/:postTitle", function(req, res){
   posts.forEach(function(post){
     if (_.lowerCase(post.title) === requestedTitle) {
       res.render("post", {post: post});
-    } else {
-      res.send("<h1>404</h1><p>Sorry the page you are looking for is does not exist!</p>");
     }
   });
 });
