@@ -14,3 +14,6 @@ This will then run the web app on http://localhost:3000/ by default.
 - CSS
 - Node.js
 - Express.js
+- EJS
+- Body-parser npm
+- Lodash npm
