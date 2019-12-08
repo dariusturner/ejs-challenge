@@ -5,6 +5,12 @@ EJS Challenge to create a blog site project for a Full Stack Developer Course ma
 
 This repo uses Node.js, so when you download/clone the repo please go to your terminal and cd into the project's folder and then enter the command below:
 ```
-node index.js
+node app.js
 ```
 This will then run the web app on http://localhost:3000/ by default.
+
+## What I Used
+- HTML
+- CSS
+- Node.js
+- Express.js
